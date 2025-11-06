@@ -1,17 +1,17 @@
 Online Auction System
 
-This project is a full-stack web application that allows users to participate in online auctions by placing bids on listed items. Admins can add and manage items, control auction timings, and declare winners. The project demonstrates backend APIs, frontend integration, authentication, and database operations.
+The Online Auction System is a full-stack web application that allows users to participate in auctions by placing bids on listed items. Administrators can add items, manage bidding, and declare winners. The project demonstrates frontend–backend integration, RESTful APIs, authentication, and MySQL database operations.
 
 Features
 User Features
 
 User registration and login
 
-View all available auction items
+View all auction items
 
 Place bids on items
 
-View highest bid
+View highest bid for each item
 
 View auction results
 
@@ -21,11 +21,11 @@ Admin login
 
 Add new auction items
 
-Edit or delete items
+Update or delete items
 
 Manage bidding timeline
 
-Declare winners
+Declare auction winners
 
 Tech Stack
 Frontend
@@ -56,26 +56,33 @@ VS Code
 
 Postman
 
+Git and GitHub
+
 Project Overview
 
-The Online Auction System is designed to simulate a real bidding platform where users can compete by placing bids on auction items. The admin is responsible for managing the items and controlling the bidding process. The project follows a clear separation of frontend, backend, and database layers, connected through REST APIs.
+This application simulates an online auction environment where users can compete by placing bids. The admin controls the items available for bidding and the auction timings. The system follows a modular structure with separate layers for frontend, backend, and database interactions using REST APIs.
 
 Architecture
 
-Frontend (React)
-→ communicates with →
-Backend (Node.js + Express)
-→ interacts with →
-MySQL Database
+Frontend: React.js application
+
+Backend: Node.js + Express server
+
+Database: MySQL
+
+Communication: REST API using Axios
+
+Flow:
+React (Client) → Express (Server) → MySQL (Database)
 
 Project Structure
-/auction
-   /client        (React frontend)
-   /server        (Node.js backend)
-   /routes
-   /controllers
-   /models
-   /config
+auction/
+   client/        // React frontend
+   server/        // Node.js backend
+   routes/
+   controllers/
+   models/
+   config/
    README.md
 
 How to Run the Project Locally
@@ -97,25 +104,25 @@ cd ../client
 npm install
 
 
-Start backend
+Start the backend server
 
 npm start
 
 
-Start frontend
+Start the frontend development server
 
 npm start
 
 Purpose of the Project
 
-This project was created to demonstrate skills in:
+This project demonstrates practical skills in:
 
-Full-stack development
+Full-stack application development
 
-REST API creation
+Building and consuming REST APIs
 
-User authentication
+User authentication with JWT
 
-SQL database integration
+SQL database design and integration
 
-Building a functional working application
+Implementing a functional auction workflow
