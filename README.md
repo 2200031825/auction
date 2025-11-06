@@ -1,73 +1,121 @@
-# Getting Started with Create React App
+Online Auction System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack web application that allows users to participate in online auctions by placing bids on listed items. Admins can add and manage items, control auction timings, and declare winners. The project demonstrates backend APIs, frontend integration, authentication, and database operations.
 
-## Available Scripts
+Features
+User Features
 
-In the project directory, you can run:
+User registration and login
 
-### `npm start`
+View all available auction items
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Place bids on items
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View highest bid
 
-### `npm test`
+View auction results
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Admin Features
 
-### `npm run build`
+Admin login
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add new auction items
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit or delete items
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Manage bidding timeline
 
-### `npm run eject`
+Declare winners
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tech Stack
+Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+HTML
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS
 
-## Learn More
+Axios
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Node.js
 
-### Code Splitting
+Express.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+JWT authentication
 
-### Analyzing the Bundle Size
+Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+MySQL
 
-### Making a Progressive Web App
+Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+VS Code
 
-### Advanced Configuration
+Postman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Overview
 
-### Deployment
+The Online Auction System is designed to simulate a real bidding platform where users can compete by placing bids on auction items. The admin is responsible for managing the items and controlling the bidding process. The project follows a clear separation of frontend, backend, and database layers, connected through REST APIs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Architecture
 
-### `npm run build` fails to minify
+Frontend (React)
+→ communicates with →
+Backend (Node.js + Express)
+→ interacts with →
+MySQL Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# project" 
-"# project" 
-"# project" 
+Project Structure
+/auction
+   /client        (React frontend)
+   /server        (Node.js backend)
+   /routes
+   /controllers
+   /models
+   /config
+   README.md
+
+How to Run the Project Locally
+
+Clone the repository
+
+git clone https://github.com/2200031825/auction
+
+
+Install backend dependencies
+
+cd server
+npm install
+
+
+Install frontend dependencies
+
+cd ../client
+npm install
+
+
+Start backend
+
+npm start
+
+
+Start frontend
+
+npm start
+
+Purpose of the Project
+
+This project was created to demonstrate skills in:
+
+Full-stack development
+
+REST API creation
+
+User authentication
+
+SQL database integration
+
+Building a functional working application
