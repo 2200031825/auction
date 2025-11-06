@@ -5,6 +5,8 @@ The Online Auction System is a full-stack web application that allows users to p
 Features
 User Features
 
+
+
 User registration and login
 
 View all auction items
@@ -27,8 +29,12 @@ Manage bidding timeline
 
 Declare auction winners
 
+
+
 Tech Stack
 Frontend
+
+
 
 React.js
 
@@ -37,6 +43,9 @@ HTML
 CSS
 
 Axios
+
+
+
 
 Backend
 
@@ -50,6 +59,9 @@ Database
 
 MySQL
 
+
+
+
 Tools
 
 VS Code
@@ -58,9 +70,15 @@ Postman
 
 Git and GitHub
 
+
+
+
 Project Overview
 
 This application simulates an online auction environment where users can compete by placing bids. The admin controls the items available for bidding and the auction timings. The system follows a modular structure with separate layers for frontend, backend, and database interactions using REST APIs.
+
+
+
 
 Architecture
 
@@ -72,8 +90,13 @@ Database: MySQL
 
 Communication: REST API using Axios
 
+
+
 Flow:
 React (Client) → Express (Server) → MySQL (Database)
+
+
+
 
 Project Structure
 auction/
@@ -85,11 +108,17 @@ auction/
    config/
    README.md
 
+
+   
+
 How to Run the Project Locally
 
 Clone the repository
 
 git clone https://github.com/2200031825/auction
+
+
+
 
 
 Install backend dependencies
@@ -98,10 +127,15 @@ cd server
 npm install
 
 
+
+
 Install frontend dependencies
 
 cd ../client
 npm install
+
+
+
 
 
 Start the backend server
@@ -109,9 +143,11 @@ Start the backend server
 npm start
 
 
+
 Start the frontend development server
 
 npm start
+
 
 Purpose of the Project
 
@@ -126,3 +162,4 @@ User authentication with JWT
 SQL database design and integration
 
 Implementing a functional auction workflow
+
